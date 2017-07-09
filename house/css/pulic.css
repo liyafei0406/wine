@@ -1,0 +1,92 @@
+/*公共的css属性*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑"
+}
+li {
+	list-style-type: none
+}
+html {
+	font-size: 100%
+}
+body {
+	font-size: 1em
+}
+title {
+	text-align: center
+}
+/*背景大小*/
+.bg {
+	width: 100%;
+	/*background-color: #efeff5*/
+}
+/*头部*/
+.header {
+	width: 100%;
+}
+.header img {
+	width: 100%;
+	display: block;
+	
+}
+.header p {
+	font-size: 0.8rem;
+	position: absolute;
+}
+.header_p1 {
+	top: 10.5%;
+	left: 10%;
+	color: #009933;
+}
+.header_p2 {
+	width: 100%;
+	top: 15.5%;
+	text-align: center;
+	color: white;
+}
+/*备案*/
+.recorder {
+	width: 100%;
+	padding-bottom: 20%;
+	background-color: #336600;
+	padding-top: 10px;
+}
+.recorder p {
+	width: 94%;
+	font-size: .8rem;
+	margin-top: 10px;
+	color:white;
+	margin: 10px 3%;
+}
+/*下面托盘*/
+.stock {
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	bottom: 0;
+	z-index: 99999999;
+}
+.stock li {
+	float: left;
+	width: 25%;
+	font-size: .8rem;
+	text-align: center;
+	color: lightslategrey;
+	position: relative;
+}
+.stock li img {
+	width: 30%;
+	padding-top: 5px;
+	margin-bottom: 5px;
+}
+.stock li a {
+	text-decoration: none;
+	color: lightslategrey
+}
+.stock li .stock_is {
+	position: absolute;
+	left: 50%;
+	margin-left: -15%;
+	display: none;
+}
