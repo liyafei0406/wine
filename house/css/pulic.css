@@ -25,10 +25,9 @@ title {
 .header {
 	width: 100%;
 }
-.header img {
+.header_i1 {
 	width: 100%;
 	display: block;
-	
 }
 .header p {
 	font-size: 0.8rem;
@@ -49,6 +48,65 @@ title {
 	height: 30px;
 	line-height: 30px;
 	background: url(../img/lan.png) no-repeat;
+}
+.header_i2 {
+	width: 7%;
+	position: absolute;
+	top: 2%;
+	right: 1%;
+	display: block;
+}
+/*下拉栏目*/
+.header_xl {
+	width: 100%;
+   background-color: #009933;
+   position: absolute;
+   z-index: 99999;
+   display: none;
+   padding-bottom: 10px;
+}
+.header_xl li {
+	font-size: 0.8rem;
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-bottom: 0.5px lavender solid;
+	padding: 10px 0;
+	position: relative;
+}
+.ico1 {
+	width: 20px;
+	height: 22px;
+	position: relative;
+	background-image: url("../img/icon-1.png");
+	background-repeat: no-repeat;
+	left: 10px;
+}
+.icon1 {
+	background-position: -2px -17px;
+}
+.icon2 {
+	background-position: -42px -17px;
+}
+.icon3 {
+	background-position: -82px -17px;
+}
+.icon4 {
+	background-position: -122px -17px;
+}
+.icon5 {
+	background-position: -162px -17px;
+}
+.icon6 {
+	background-position: -202px -17px;
+}
+.icon7 {
+	background-position: -242px -17px;
+}
+.header_xl li span {
+	position: absolute;
+	top: 14px;
+	left: 42px;
 }
 /*备案*/
 .recorder {
