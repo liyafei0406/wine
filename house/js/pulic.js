@@ -1,3 +1,4 @@
+	$(function() {
 	//托盘效果
 	$(".stock li").on("click", function() {
 		var index = $(".stock li").index($(this));
@@ -16,6 +17,10 @@
 		$('img').eq(i).hide();
 	}
 	}
+	$(".header_i2").on("click", function() {
+		$(".header_xl").slideToggle();
+	})
+	})
 //热线咨询
 function func1() {
 	layer.open({
