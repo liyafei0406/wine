@@ -144,10 +144,10 @@ title {
 	position: absolute;
 	left: 80%;
 	top: 15%;
-	animation: pager 1s infinite;
+/* 	animation: pager 1s infinite;
 	-webkit-animation: pager 1s infinite;
 	-ms-animation: pager 1s infinite;
-	-moz-animation: pager 1s infinite
+	-moz-animation: pager 1s infinite */
 }
 @keyframes pager {
 	0% {
