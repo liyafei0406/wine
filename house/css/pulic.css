@@ -32,18 +32,23 @@ title {
 }
 .header p {
 	font-size: 0.8rem;
-	position: absolute;
 }
 .header_p1 {
-	top: 11.5%;
-	left: 10%;
+	height: 28px;
+	line-height: 28px;
+	background: url(../img/h2_bg.png) no-repeat;
+	background-size: 100%;
 	color: #009933;
+	text-indent: 10%;
+	display: block;
 }
 .header_p2 {
 	width: 100%;
-	top: 17%;
 	text-align: center;
 	color: white;
+	height: 30px;
+	line-height: 30px;
+	background: url(../img/lan.png) no-repeat;
 }
 /*备案*/
 .recorder {
