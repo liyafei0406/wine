@@ -45,7 +45,7 @@
 /*文字题目*/
 .project_x li .project_xdiv{
 	width: 100%;
-	font-size: .8rem;
+	font-size: .85rem;
 	background: url(../img/lan.png) no-repeat;
 	height: 30px;
 	margin-bottom: 10px;
