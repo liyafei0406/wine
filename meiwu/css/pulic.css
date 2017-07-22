@@ -72,7 +72,8 @@ title {
 	outline: 0;
 	text-indent: 5px;
 	border-color: white;
-	line-height: 25px
+	line-height: 25px;
+	border-radius: 0;
 }
 
 .seek button {
