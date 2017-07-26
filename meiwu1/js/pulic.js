@@ -38,9 +38,18 @@
 		$('img').eq(i).hide();
 	}
 	}
-	//下拉单
-	$(".header_i2").on("click", function() {
-		$(".header_xl").slideToggle();
+	//点击下拉单
+	$(".header_i2").stop().on("click", function() {
+		$(".header_xl").show(600);
+		$(".header_l1").show(600);
+	});
+	$(".header_l1").stop().on("click", function() {
+		$(".header_xl").hide(600);
+		$(".header_l1").hide(600);
+	})
+	$(".header_xl").stop().on("click", function() {
+		$(".header_xl").hide(600);
+		$(".header_l1").hide(600);
 	})
 	})
 //热线咨询
