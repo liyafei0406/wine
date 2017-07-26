@@ -99,13 +99,30 @@ title {
 	/*color: #abadae;*/
 }
 /*下拉栏目*/
+.header_l1 {
+	background-color: #7f7f7f;
+	opacity: 0.4;
+	width: 40%;
+	height: 100vh;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	display: none;
+}
 .header_xl {
-	width: 100%;
+	width: 60%;
    background-color: #00862e;
-   position: absolute;
-   z-index: 99999;
+   position: fixed;
+   top: 0;
+   right: 0;
+   z-index: 1;
+   height: 100vh;
    display: none;
     padding-bottom: 10px;
+}
+.header_xl li:nth-child(1) {
+	margin-top: 40px;
 }
 .header_xl li {
 	font-size: 0.8rem;
@@ -170,7 +187,8 @@ title {
 	width: 100%;
 	background-color: white;
 	position: fixed;
-	bottom: 0
+	bottom: 0;
+	z-index: 2;
 }
 .stock li {
 	float: left;
