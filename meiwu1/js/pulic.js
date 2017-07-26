@@ -1,4 +1,19 @@
 	$(function() {
+	$(window).bind('scroll', function() {
+	   var w_scrollTop = $(window).scrollTop();
+	   if(w_scrollTop > 150) {
+		$(".untitled").fadeIn(300);
+	   } else if(w_scrollTop < 200) {
+		$(".untitled").fadeOut(300);
+	   }
+	});
+	//点击小火箭效果
+	$(".untitled").click(function() {
+		$("html,body").animate({
+			scrollTop: 0
+		});
+		return false;
+	});
 	//托盘效果
 	$(".stock li").on("click", function() {
 		var index = $(".stock li").index($(this));
