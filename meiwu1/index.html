@@ -245,9 +245,10 @@
 			var index = -1;
 			var index1 = 0;
 		touch.on(".feature li","swipeleft",function(){
-		
 	 	if(index <= -9) {
-	 		return false;
+	 		index = -9;
+//	 		console.log(111);
+	 		return false;	
 	 	}else {
 	 		index1 ++;
 	 		$(".brand_lr div").css("background-color","");
@@ -256,9 +257,13 @@
 	 	 	left: -screen.width
 	 	 },"2000",function() {
 //	 	 	$(".brand li").eq(index).hide();
-          	index --;
+			if(index <= -9) {
+				index = -9;
+				return false;
+			}
 	 	 })
 	 	 }
+	 	index --;
 	 })
 	  touch.on(".feature li","swiperight",function(){
 	  	index ++;
@@ -272,10 +277,54 @@
 	 	 $(".feature li").stop().eq(index).animate({
 	 	 	left: 0
 	 	 },"2000",function() {
+	 	 	if(index >= -1) {
+	 	 		index = -1;
+	 	 		return false;
+	 	 	}
 	 	 })
 	 	 }
 	 })
+	  $(".brand_i01").stop().on("click", function() {
+	  
+	  	if(index <= -9) {
+	  		index = -9;
+	 		return false;
+	 	}else {
+	 		index1 ++;
+	 		$(".brand_lr div").css("background-color","");
+	 		$(".brand_lr div").eq(index1).css("background-color","#00862e");
+	 	 $(".feature li").eq(index).animate({
+	 	 	left: -screen.width
+	 	 },"2000",function() {
+			if(index <= -9) {
+				index = -9;
+				return false;
+			}
+	 	 })
+	 	 }
+	 		index --;
+	  })
+	   $(".brand_i02").stop().on("click", function() {
+	  		index ++;
+	 	if(index >= 0) {
+	 		index = -1;
+	 		return false;
+	 	}else {
+	 		index1 --;
+	 		$(".brand_lr div").css("background-color","");
+	 		$(".brand_lr div").eq(index1).css("background-color","#00862e");
+	 	 $(".feature li").eq(index).animate({
+	 	 	left: 0
+	 	 },"2000",function() {
+	 	 	if(index >= -1) {
+				index = -1;
+				return false;
+			}
+	 	 })
+	 	 }
+	  })
 	 $(".stock_is").eq(0).show();
+	 
 	 })
 	</script>
 </html>
