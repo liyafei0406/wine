@@ -52,7 +52,7 @@ title {
 .header_i2 {
 	width: 7%;
 	position: absolute;
-	top: 3%;
+	top: 2%;
 	right: 1%;
 	display: block;
 }
@@ -110,17 +110,18 @@ title {
 }
 /*备案*/
 .recorder {
+	background-color: #00862e;
 	width: 100%;
+	margin-top: 115px;
+	margin-bottom: 10px;
 	padding-bottom: 20%;
-	background-color: #336600;
-	padding-top: 10px;
 }
 .recorder p {
-	width: 94%;
+	width: 96%;
+	margin-left: 3%;
 	font-size: .8rem;
 	margin-top: 10px;
-	color:white;
-	margin: 10px 3%;
+	color: white;
 }
 /*下面托盘*/
 .stock {
@@ -152,4 +153,51 @@ title {
 	left: 50%;
 	margin-left: -15%;
 	display: none;
+}
+.magier {
+	margin-top: 10px;
+}
+/*更多的项目*/
+.magier img {
+	width: 45.5%;
+	margin-left: 3%;
+	display: block;
+	/*margin-top: 10px;*/
+	margin-bottom: 10px;
+	float: left;
+}
+/*首页公共标题*/
+.in_h {
+	width: 94%;
+	margin-left: 3%;
+	margin-bottom: 10px;
+	font-family: 微软雅黑;
+	clear: both;
+	border-left: 1.5px solid #00862e;
+}
+.in_h a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 1.1rem;
+	font-family: 微软雅黑;
+	margin-left: 10px;
+}
+/*小火箭*/
+.untitled {
+	width: 10%;
+	position: fixed;
+	right: 2%;
+	top: 75%;
+	border: 1px lightgray solid;
+	display: none;
+	padding: 2%;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-ms-border-radius: 50%
+}
+.untitled img {
+	width: 100%;
+	margin-right: 0;
+	display: block
 }
