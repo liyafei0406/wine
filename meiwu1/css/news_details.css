@@ -24,7 +24,7 @@
 	margin-left: 3%;
 	font-size: .8rem;
 	margin-top: 10px;
-	border-bottom: 1px solid #00862e;
+	border-bottom: 1px solid #dfdfdf;
 	margin-bottom: 10px
 }
 .particulars_li li img {
@@ -49,4 +49,21 @@
 	width: 94%;
 	margin-left: 3%;
 	margin-bottom: 10px
+}
+/*上下篇点击*/
+.particulars_tb {
+	font-size: 0.8rem;
+	margin-top: 10px;
+	margin-left: 2%;
+}
+.particulars_tb span {
+	width: 80%;
+	display: block;
+    overflow: hidden;
+    margin-left: 18%;
+    margin-top: -5.5%;
+    height: 1.1rem;
+}
+.particulars_bottom {
+	margin-bottom: 10px;
 }
