@@ -217,7 +217,7 @@ title {
 .untitled {
 	width: 10%;
 	position: fixed;
-	right: 2%;
+	right: 3%;
 	top: 75%;
 	border: 1px lightgray solid;
 	display: none;
@@ -236,7 +236,7 @@ title {
 .online {
 	width: 14%;
 	position: fixed;
-	right: 2%;
+	right: 3%;
 	top: 62%;
 }
 .online img {
