@@ -53,7 +53,7 @@ title {
 .header_i2 {
 	width: 7%;
 	position: absolute;
-	top: 13%;
+	top: 13.5%;
 	right: 1%;
 	display: block;
 }
@@ -237,7 +237,8 @@ title {
 	width: 14%;
 	position: fixed;
 	right: 3%;
-	top: 63.5%;
+	top: 64%;
+	display: none;
 }
 .online img {
 	width: 100%;
