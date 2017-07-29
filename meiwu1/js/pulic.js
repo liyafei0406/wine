@@ -3,8 +3,10 @@
 		var w_scrollTop = $(window).scrollTop();
 		if(w_scrollTop > 150) {
 			$(".untitled").fadeIn(300);
+			$(".online").fadeIn(300);
 		} else if(w_scrollTop < 200) {
 			$(".untitled").fadeOut(300);
+			$(".online").fadeOut(300);
 		}
 	});
 	//点击小火箭效果
