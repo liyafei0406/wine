@@ -45,7 +45,7 @@ function func1() {
 		closeBtn: 1,
 		shade: 0.8,
 		area: ['80%', '90%'],
-		content: 'http://www.mhsjgc.com/lyxt/excl_message2/xqtkjcq-index.asp'
+		content: 'http://www.mhsjgc.com/dsly/excl_message2/index.asp'
 	});
 }
 //点击在线咨询
@@ -56,6 +56,6 @@ function func2() {
 		closeBtn: 1,
         shade: 0.8,
 		area: ['94%', '77.5%'],
-		content: 'http://proxy.shangjitong.3jia5.com/style6/chat.html?sk=-2192711994465143292&g=11285&fm=1041272929&tm=38493&un=%E5%AE%A2%E6%9C%8D%E5%90%B4%E9%9D%99&st=online&ip=124.193.87.34&local=%E5%8C%97%E4%BA%AC&ref=&url=http%3A%2F%2Fm.3158.cn%2Fnews%2Fshow_3548896.html%23m-msgv1-call&ks=0&so=0&nl=0##0&si=7&skin=blue&action=talk&customer={"itemid":"384663","userid":"420072","typeid":"133","domain":"m.3158.cn","return_url":"http%3A%2F%2Fm.3158.cn%2Fnews%2Fshow_3548896.html%23m-msgv1-call"}'
+		content:'http://www7.53kf.com/m.php?cid=70792892&style=2&keyword=http%3A%2F%2Fwww.cgcy001.com%2Fplus%2Flist.php%3Ftid%3D17&referer=http%3A%2F%2Fwww.cgcy001.com%2Fwap%2Findex.html&guest_id=10107770143017&tpl=crystal_blue&uid=9d8d1dc40685c0270084e937594dbc32&u_stat_id=&talktitle=%E7%BE%8E%E5%B1%8B%E5%AE%9A%E5%88%B6%E4%B8%AA%E6%80%A7%E5%8C%96%E5%85%BB%E7%94%9F%E6%99%BA%E8%83%BD%E5%AE%B6%E8%A3%85%E4%B8%80%E7%AB%99%E5%BC%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88&tfrom=50&zdkf_type=1&kf=pengchaowz%40163.com%2C2915065108%40qq.com%2C3258853642%40qq.com%2Czknet'
 	});
 }
