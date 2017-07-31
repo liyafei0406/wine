@@ -356,10 +356,11 @@ title {
 	top: 72%;
 }*/
 .div6_h {
+	margin-top: 3px;
 	font-size: 1.1rem;
 }
 .div6_d {
-	margin-top: 5px;
+	margin-top: 3px;
 	/*text-align: center;*/
 	/*line-height: 25px;*/
 	font-size: 0.8rem;
