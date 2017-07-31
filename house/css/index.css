@@ -102,13 +102,12 @@ title {
 	width: 96%;
 	left: 2%;
 	top: 26.5%;
-	background-color: #6db92e;
+	background-color: #f6f6f6;
 	padding-bottom: 10px;
 }
 .indexL p {
-	font-size: 0.9rem;
+	font-size: 1.1rem;
 	text-align: center;
-	color: white;
 	margin-top: 10px;
 }
 .indexL .ic {
@@ -123,8 +122,8 @@ title {
 }
 
 .indexL .ic a {
-	color: white;
-	font-size: .75rem;
+	color: black;
+	font-size: .8rem;
 	text-decoration: none;
 	display: block;
 }
@@ -142,58 +141,11 @@ title {
 .img23 {
 	width: 15%;
 	position: absolute;
-	left: 80%;
+	left: 83%;
 	top: 15%;
- 	animation: pager 1s infinite;
-	-webkit-animation: pager 1s infinite;
-	-ms-animation: pager 1s infinite;
-	-moz-animation: pager 1s infinite;
 	z-index: 9999; 
 }
-@keyframes pager {
-	0% {
-		opacity: .5
-	}
-	50% {
-		opacity: 1
-	}
-	100% {
-		opacity: .5
-	}
-}
-@-webkit-keyframes pager {
-	0% {
-		opacity: .5
-	}
-	50% {
-		opacity: 1
-	}
-	100% {
-		opacity: .5
-	}
-}
-@-ms-keyframes pager {
-	0% {
-		opacity: .5
-	}
-	50% {
-		opacity: 1
-	}
-	100% {
-		opacity: .5
-	}
-}
-@-moz-keyframes pager {
-	0% {
-		opacity: .5
-	}
-	50% {
-		opacity: 1
-	}
-	100% {
-		opacity: .5
-	}
-}
+
 /*第三页*/
 .swiper-slide3 {
 	background: url(../img/house3.png) no-repeat;
@@ -262,8 +214,7 @@ title {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-ms-border-radius: 5px;
-	background-color: #336600;
-	color: white;
+	background-color: #f6f6f6;
 	font-size: 0.8rem;
 }
 /*第四页*/
@@ -283,17 +234,16 @@ title {
 	left: 56%;
 }
 .div4 {
-	font-weight: bold;
 	position: absolute;
-	top: 15%;
+	top: 15.5%;
 	right: 5%;
-	font-size: 0.7rem;
+	font-size: 0.8rem;
 }
 .div41 {
 	position: absolute;
-	top: 21%;
-	left: 47%;
-	font-size: 1.2rem;
+	top: 20%;
+	left: 45%;
+	font-size: 1.1rem;
 	/*color: white;*/
 	font-weight: bold;
 	line-height: 50px;
@@ -346,16 +296,15 @@ title {
 	font-size: 1.1rem;
 }
 .div5_d {
-	margin-top: 5%;
+	margin-top: 4.5%;
 	text-align: center;
 	line-height: 25px;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-ms-border-radius: 5px;
-	background-color: #336600;
+	background-color: #F6F6F6;
 	font-size: 0.8rem;
-	color: white;
 }
 /*第六页*/
 .swiper-slide6 {
@@ -413,12 +362,7 @@ title {
 	margin-top: 5px;
 	/*text-align: center;*/
 	/*line-height: 25px;*/
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-ms-border-radius: 5px;
 	font-size: 0.8rem;
-	color: white;
 }
 /*第七页*/
 .swiper-slide7 {
@@ -431,37 +375,36 @@ title {
 	width: 90%;
 }
 .img71 {
-	top: 19.5%;
+	top: 19%;
 }
 .img72 {
-	top: 33.5%;
+	top: 33%;
 }
 .p5 {
 	position: absolute;
-	top: 49.5%;
+	top: 49%;
 	width: 100%;
 	left: 0;
 	text-align: center;
-	font-size: 1rem;
-	font-weight: bold;
+	font-size: 1.1rem;
 }
 .img77 {
 	position: absolute;
 	width: 42.5%;
 }
 .img771 {
-	top: 54.5%;
+	top: 54%;
 	left: 5%;
 }
 .img772 {
-	top: 54.5%;
+	top: 54%;
 	left: 52.5%;
 }
 .img773 {
-	top: 64%;
+	top: 63.5%;
 	left: 5%;
 }
 .img774 {
-	top: 64%;
+	top: 63.5%;
 	left: 52.5%;
 }
