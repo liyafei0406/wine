@@ -186,7 +186,7 @@ title {
 .untitled {
 	width: 10%;
 	position: fixed;
-	right: 2%;
+	right: 3%;
 	top: 75%;
 	border: 1px lightgray solid;
 	display: none;
@@ -209,4 +209,17 @@ h2 {
 }
 p {
 	font-family: "微软雅黑"
+}
+/*在线咨询*/
+.online {
+	width: 14%;
+	position: fixed;
+	right: 0;
+	top: 35%;
+	z-index: 999999;
+}
+.online img {
+	width: 100%;
+	margin-right: 0;
+	display: block
 }
