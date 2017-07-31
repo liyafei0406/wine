@@ -144,56 +144,9 @@ title {
 	position: absolute;
 	left: 80%;
 	top: 15%;
- 	animation: pager 1s infinite;
-	-webkit-animation: pager 1s infinite;
-	-ms-animation: pager 1s infinite;
-	-moz-animation: pager 1s infinite;
 	z-index: 9999; 
 }
-@keyframes pager {
-	0% {
-		opacity: .5
-	}
-	50% {
-		opacity: 1
-	}
-	100% {
-		opacity: .5
-	}
-}
-@-webkit-keyframes pager {
-	0% {
-		opacity: .5
-	}
-	50% {
-		opacity: 1
-	}
-	100% {
-		opacity: .5
-	}
-}
-@-ms-keyframes pager {
-	0% {
-		opacity: .5
-	}
-	50% {
-		opacity: 1
-	}
-	100% {
-		opacity: .5
-	}
-}
-@-moz-keyframes pager {
-	0% {
-		opacity: .5
-	}
-	50% {
-		opacity: 1
-	}
-	100% {
-		opacity: .5
-	}
-}
+
 /*第三页*/
 .swiper-slide3 {
 	background: url(../img/house3.png) no-repeat;
