@@ -126,10 +126,10 @@ $(function() {
 	li.append(div2);
 	li.on("click", function() {
 		window.location.href = 'news_details.html';
-	})
+	});
 	$(".news_centre ul").append(li);
-	}
-}
+	};
+};
    createLi();
  //窗口滚动时在特定条件下去触发创建li的函数
 		window.onscroll = function() {
@@ -144,9 +144,9 @@ $(function() {
 			if (maxHeight == scrollTop) {
 //				lier();
              createLi();
-			}
-		}
-})
+			};
+		};
+});
 	</script>
 </html>
 </html>

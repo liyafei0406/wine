@@ -241,6 +241,7 @@
 	<script src="js/pulic.js" type="text/javascript"></script>
 	<script type="text/javascript" src="js/touch.js"></script>
 	<script type="text/javascript">
+		//滑动特色的动画效果
 		$(".brand_lr div").eq(0).css("background-color","#00862e");
 		$(function() {
 			var index = -1;
@@ -261,11 +262,11 @@
 			if(index <= -9) {
 				index = -9;
 				return false;
-			}
-	 	 })
-	 	 }
+			};
+	 	 });
+	 	 };
 	 	index --;
-	 })
+	 });
 	  touch.on(".feature li","swiperight",function(){
 	  	index ++;
 	 	if(index >= 0) {
@@ -281,10 +282,11 @@
 	 	 	if(index >= -1) {
 	 	 		index = -1;
 	 	 		return false;
-	 	 	}
-	 	 })
-	 	 }
-	 })
+	 	 	};
+	 	 });
+	 	 };
+	 });
+	 //点击下标图片滑动效果
 	  $(".brand_i01").stop().on("click", function() {
 	  
 	  	if(index <= -9) {
@@ -300,11 +302,11 @@
 			if(index <= -9) {
 				index = -9;
 				return false;
-			}
-	 	 })
-	 	 }
+			};
+	 	 });
+	 	 };
 	 		index --;
-	  })
+	  });
 	   $(".brand_i02").stop().on("click", function() {
 	  		index ++;
 	 	if(index >= 0) {
@@ -320,12 +322,13 @@
 	 	 	if(index >= -1) {
 				index = -1;
 				return false;
-			}
-	 	 })
-	 	 }
-	  })
+			};
+	 	 });
+	 	 };
+	  });
+	  //托盘首页图标显示隐藏
 	 $(".stock_is").eq(0).show();
-	 })
+	 });
 	</script>
 </html>
 </html>
