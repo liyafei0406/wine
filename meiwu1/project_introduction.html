@@ -221,6 +221,26 @@
 			p6:"汇聚数百种国内最流行，最具个性，与互联网结合最紧密的文化创意产业，打造国内领先的创意文化产业集群，先声夺人，一枝独秀。 产品创新：产品集“创意、文化、个性、智能、实用“与一体，满足现代人追求”新奇特”的目标，个性卓越，应者云集;针对创业者提供专项服务，铸造“创业服务系统“，从市场调研到产品研发到营销推广，全程高智力集群制成，服务号，全程有保障。 功能创新：可以远程控制爱家，可以净化空气，可以保温制暖……创新使用功能，满足生活不同需求;根据消费者个人喜好、生活习惯、经济能力等，采用定制模式，打造消费者的专属天地，营造独特个性空间，既美观实用，又彰显品位;整合全球著名设计师和优质制造工厂，精心打造多种空间创意装饰品，实施连锁化标准经营，统一培训，实现快速装修装饰;从创意到产业，需要一个全产业链的运营！宋庄创意工场，从园区建设到配套服务，从创意设计到产品初步展现，从市场预判到产品入市争雄，全程一条龙服务;中国•宋庄创意工场，设立全新的创意工场APP/微创业平台，让不同实力的创业者，都能享受到最好的创业服务。在产业基金和创业服务上提供完善的服务，让创业者的创意，不在被淹没，让创意改变生活，闪耀中国。",
 			nums:3
 		});
+		//js获取get传参
+		function GetQueryString(name){
+			 var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+			 var r = window.location.search.substr(1).match(reg);
+			 if(r != null){
+			 	return  unescape(r[2]);
+			 }else { 
+			 	return null;
+			 }
+		}
+		var numb1 = GetQueryString("numb1");
+		if(numb1 == 0) {
+		    $(".project_div").hide();	
+		 	$(".project_xli").hide();
+		 	$(".project_xli").eq(numb1).slideToggle();
+		}else if(numb1 == 3) {
+			$(".project_div").hide();	
+		 	$(".project_xli").hide();
+		 	$(".project_xli").eq(numb1).slideToggle();
+		}
 		var num = null;
 		 $(".project_x li" ).stop().on("click", function() {
 		 	var index =  $(".project_x li").index($(this));
