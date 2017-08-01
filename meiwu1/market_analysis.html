@@ -196,6 +196,29 @@
 			img4:"",
 			nums:2
 		});
+		function GetQueryString(name){
+			 var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+			 var r = window.location.search.substr(1).match(reg);
+			 if(r != null){
+			 	return  unescape(r[2]);
+			 }else { 
+			 	return null;
+			 }
+		}
+		var numb2 = GetQueryString("numb2");
+		if(numb2 == 1) {
+		    $(".project_div").hide();	
+		 	$(".project_xli").hide();
+		 	$(".project_xli").eq(numb2).slideToggle();
+		}else if(numb2 == 2) {
+			$(".project_div").hide();	
+		 	$(".project_xli").hide();
+		 	$(".project_xli").eq(numb2).slideToggle();
+		}else if(numb2 == 0) {
+			$(".project_div").hide();	
+		 	$(".project_xli").hide();
+		 	$(".project_xli").eq(numb2).slideToggle();
+		}	
 		var num = null;
 		 $(".project_x li" ).stop().on("click", function() {
 		 	var index =  $(".project_x li").index($(this));
