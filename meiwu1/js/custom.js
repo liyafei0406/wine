@@ -1,3 +1,4 @@
+//大图滚动
 $(function() {
 	var index = 0;
 	var imgs = $(".middle img");
@@ -28,5 +29,5 @@ $(function() {
 			indexs = 0;
 		}
 		move();
-	}, 2000);
+	}, 3000);
 })
