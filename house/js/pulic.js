@@ -44,7 +44,7 @@ function func1() {
 		title: '在线留言',
 		closeBtn: 1,
 		shade: 0.8,
-		area: ['94%', '75%'],
+		area: ['94%', '72%'],
 		content: 'http://www.mhsjgc.com/dsly/excl_message2/index.asp'
 	});
 }
