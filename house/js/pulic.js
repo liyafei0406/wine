@@ -1,4 +1,5 @@
 	$(function() {
+		//回到顶部和在线咨询的显示和隐藏
 		$(window).bind('scroll', function() {
 		var w_scrollTop = $(window).scrollTop();
 		if(w_scrollTop > 150) {
@@ -36,6 +37,19 @@
 	$(".header_i2").on("click", function() {
 		$(".header_xl").slideToggle();
 	})
+	//点击栏目动画效果
+		var num = null;
+		 $(".project_x li" ).stop().on("click", function() {
+		 	var index =  $(".project_x li").index($(this));
+		 	if(num != index) {
+		 	num = index
+		 	$(".project_div").hide();	
+		 	  $(".project_xli").hide();
+		 	 $(".project_xli").eq(index).slideToggle();
+		 	}else {
+		 		return false;
+		 	}
+		 })
 	})
 //热线留言
 function func1() {
