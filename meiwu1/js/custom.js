@@ -30,8 +30,4 @@ $(function() {
 		}
 		move();
 	}, 3000);
-<<<<<<< HEAD
 })
-=======
-})
->>>>>>> origin/master
