@@ -1,0 +1,441 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none
+}
+
+html {
+	font-size: 100%
+}
+
+body {
+	font-size: 1em
+}
+
+title {
+	text-align: center
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+}
+
+.swiper-wrapper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.swiper-slide {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+
+/*第一页*/
+
+.swiper-slide1 {
+	/*background: url(../img/house1.png) no-repeat;
+	background-size: 100% 100%;*/
+}
+.div02 {
+	position: absolute;
+	top: 15.5%;
+	width: 94%;
+	left: 3%;
+	font-size: 0.8rem;
+	text-indent: 1.6rem;
+}
+.img011 {
+	width: 94%;
+	left: 3%;
+	position: absolute;
+	top: 40%;
+}
+.imgO {
+	width: 21.25%;
+	position: absolute;
+	top: 78%;
+}
+
+.imgO1 {
+	left: 3%;
+}
+
+.imgO2 {
+	left: 27.25%;
+}
+
+.imgO3 {
+	left: 51.5%;
+}
+.imgO4 {
+	left: 75.75%;
+}
+/*.imgs {
+	position: absolute;
+	left: 20%;
+	top: 2%;
+	width: 60%;
+}*/
+
+/*第二页*/
+
+.swiper-slide2 {
+	/*background: url(../img/house2.png) no-repeat;
+	background-size: 100% 100%;*/
+}
+.img1 {
+	position: absolute;
+	left: 15%;
+	top: 2%;
+	width: 70%;
+}
+.indexL {
+	position: absolute;
+	width: 94%;
+	left: 3%;
+	top: 27%;
+	background-color: #f6f6f6;
+	padding-bottom: 8px;
+}
+.indexL p {
+	font-size: 1.1rem;
+	text-align: center;
+	margin-top: 8px;
+	font-weight: bold;
+}
+.indexL .ic {
+	width: 94%;
+	margin-left: 3%;
+}
+
+.indexL .ic li {
+	height: 15px;
+	margin-left: 5px;
+	margin-top: 8px;
+}
+
+.indexL .ic a {
+	color: black;
+	font-size: .8rem;
+	text-decoration: none;
+	display: block;
+}
+.img2 {
+	position: absolute;
+	top: 62%;
+	width: 47%;
+}
+.img21 {
+	left: 3%;
+}
+.img22 {
+	left: 50%;
+}
+.img23 {
+	width: 15%;
+	position: absolute;
+	left: 82%;
+	top: 15%;
+	z-index: 9999; 
+}
+
+/*第三页*/
+.swiper-slide3 {
+	/*background: url(../img/house3.png) no-repeat;
+	background-size: 100% 100%;*/
+}
+.img3 {
+	position: absolute;
+	width: 30%;
+}
+.img31 {
+	left: 5.5%;
+	top: 17%;
+}
+.img32 {
+	left: 35.5%;
+	top: 17%;
+}
+.img33 {
+	left: 5.5%;
+	top: 40.5%;
+}
+.img34 {
+	left: 35.5%;
+	top: 40.5%;
+}
+.img35 {
+	left: 5.5%;
+	top: 64%;
+}
+.img36 {
+	left: 35.5%;
+	top: 64%;
+}
+.div03 {
+	position: absolute;
+	top: 12%;
+	width: 100%;
+	left: 0;
+	text-align: center;
+	font-size: 0.8rem;
+	/*color: white;*/
+}
+.div31 {
+	position: absolute;
+	top: 20%;
+	right: 5.5%;
+}
+.div32 {
+	position: absolute;
+	top: 45%;
+	right: 5.5%;
+}
+.div33 {
+	position: absolute;
+	top: 67%;
+	right: 5.5%;
+}
+.div3_h {
+	font-size: 1.1rem;
+}
+.div3_d {
+	margin-top: 25%;
+	text-align: center;
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-ms-border-radius: 5px;
+	background-color: #f6f6f6;
+	font-size: 0.8rem;
+}
+/*第四页*/
+.swiper-slide4 {
+	/*background: url(../img/house4.png) no-repeat;
+	background-size: 100% 100%;*/
+}
+.img4 {
+	position: absolute;
+	top: 19.5%;
+	width: 29.75%;
+}
+.img41 {
+	left: 13.5%;
+}
+.img42 {
+	left: 56.75%;
+}
+.div4 {
+	position: absolute;
+	top: 15.3%;
+	right: 5%;
+	font-size: 0.8rem;
+}
+.div41 {
+	position: absolute;
+	top: 20%;
+	left: 47%;
+	font-size: 1.1rem;
+	/*color: white;*/
+	font-weight: bold;
+	line-height: 50px;
+}
+/*第五页*/
+.swiper-slide5 {
+	/*background: url(../img/house5.png) no-repeat;
+	background-size: 100% 100%;*/
+}
+.img5 {
+	position: absolute;
+	width: 33.5%;
+}
+.img51 {
+	top: 16%;
+	left: 11%;
+}
+.img52 {
+	top: 16%;
+	left: 55.5%;
+}
+.img53 {
+	top: 52%;
+	left: 11%;
+}
+.img54 {
+	top: 52%;
+	left: 55.5%;
+}
+.div5 {
+	position: absolute;
+}
+.div51 {
+	top: 40%;
+	left: 16.5%;
+}
+.div52 {
+	top: 40%;
+	left: 60.5%;
+}
+.div53 {
+	top: 76%;
+	left: 16.5%;
+}
+.div54 {
+	top: 76%;
+	left: 60.5%;
+}
+.div5_h {
+	font-size: 1.1rem;
+}
+.div5_d {
+	margin-top: 4.5%;
+	text-align: center;
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-ms-border-radius: 5px;
+	background-color: #f6f6f6;
+	font-size: 0.8rem;
+}
+/*第六页*/
+.swiper-slide6 {
+	/*background: url(../img/house06.jpg) no-repeat;
+	background-size: 100% 100%;*/
+}
+.img6 {
+	position: absolute;
+	left: 3%;
+}
+.img6 img {
+	width: 39%;
+}
+.img61 {
+	top: 18%;
+}
+.img62 {
+	top: 32%;
+}
+.img63 {
+	top: 46%;
+}
+.img64 {
+	top: 60%;
+}
+.img65 {
+	top: 74%;
+}
+
+.div6 {
+	width: 145%;
+	position: absolute;
+	left: 46%;
+	top: 0;
+}
+/*.div61 {
+	top: 20%;
+}
+.div62 {
+	top: 33%;
+}
+.div63 {
+	top: 46%;
+}
+.div64 {
+	top: 59%;
+}
+.div65 {
+	top: 72%;
+}*/
+.div6_h {
+	margin-top: 2.5px;
+	font-size: 1.1rem;
+}
+.div6_d {
+	margin-top: 2.5px;
+	/*text-align: center;*/
+	/*line-height: 25px;*/
+	font-size: 0.8rem;
+}
+/*第七页*/
+.swiper-slide7 {
+	/*background: url(../img/house7.png) no-repeat;
+	background-size: 100% 100%;*/
+}
+.img7 {
+	position: absolute;
+	left: 5%;
+	width: 90%;
+}
+.img71 {
+	top: 19%;
+}
+.img72 {
+	top: 33%;
+}
+.p5 {
+	position: absolute;
+	top: 49%;
+	width: 100%;
+	left: 0;
+	text-align: center;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+.img77 {
+	position: absolute;
+	width: 42.5%;
+}
+.img771 {
+	top: 54%;
+	left: 5%;
+}
+.img772 {
+	top: 54%;
+	left: 52.5%;
+}
+.img773 {
+	top: 63.5%;
+	left: 5%;
+}
+.img774 {
+	top: 63.5%;
+	left: 52.5%;
+}
+.div07 {
+	position: absolute;
+	left: 5%;
+	width: 90%;
+	font-size: 0.8rem;
+}
+.div071 {
+	top: 73%;
+}
+.div072 {
+	top: 77.5%;
+}
+.div073 {
+	top: 85%;
+}
