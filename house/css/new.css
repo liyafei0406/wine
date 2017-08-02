@@ -18,7 +18,7 @@
 	width: 50%;
 }
 .centre_d1 img {
-	width: 96%;
+	width: 94%;
 	margin-top: 10px;
 	display: block;
 }
@@ -26,10 +26,10 @@
 	width: 50%;
 	margin-top: -36%;
 	margin-left: 50%;
-	text-align: center;
 }
 .centre_d2 h5 {
 	font-size: 0.8rem;
+	text-align: center;
 }
 .centre_d2 p {
 	/*color: #abadae;*/
@@ -37,6 +37,7 @@
 	/*text-align: center;*/
 }
 .centre_d2 .centre_p3 {
+	width: 100%;
 	font-size: 0.7rem;
 	height: 3.5rem;
 	overflow: hidden;
@@ -57,7 +58,7 @@
 .centre_p2 {
 	float: right;
 	margin-top: 3px;
-	margin-right: 4%;
+	/*margin-right: 3%;*/
 }
 .centre_p2 img {
 	width: 8px;
