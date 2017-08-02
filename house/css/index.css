@@ -78,12 +78,12 @@ title {
 .imgO4 {
 	left: 75.75%;
 }
-.imgs {
+/*.imgs {
 	position: absolute;
-	left: 20%;
-	top: 3%;
-	width: 60%;
-}
+	left: 15%;
+	top: 2%;
+	width: 70%;
+}*/
 
 /*第二页*/
 
@@ -191,17 +191,17 @@ title {
 }
 .div31 {
 	position: absolute;
-	top: 20%;
+	top: 20.5%;
 	right: 5.5%;
 }
 .div32 {
 	position: absolute;
-	top: 45%;
+	top: 44.5%;
 	right: 5.5%;
 }
 .div33 {
 	position: absolute;
-	top: 67%;
+	top: 68.5%;
 	right: 5.5%;
 }
 .div3_h {
