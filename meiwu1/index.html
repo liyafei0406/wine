@@ -326,6 +326,16 @@
 	  });
 	  //托盘首页图标显示隐藏
 	 $(".stock_is").eq(0).show();
+	 //点击搜索框查询新闻
+	$(".btnsss").on("click", function() {
+ 	if($(".word").val() == "") {
+		alert("请输入搜索关键字！");
+	}else {
+		var words = $(".word").val();
+//		words = JSON.parse(words);
+		window.location.href = 'search.html?word='+words+'';
+	};
+	});
 	 });
 	</script>
 </html>
