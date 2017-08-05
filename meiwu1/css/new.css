@@ -63,3 +63,7 @@
 .centre_p2 img {
 	width: 8px;
 }
+/*没有搜到新闻*/
+.news_xiao {
+	display: none;
+}
