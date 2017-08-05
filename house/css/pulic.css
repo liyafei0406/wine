@@ -24,6 +24,8 @@ title {
 /*头部*/
 .header {
 	width: 100%;
+	background-color: #00862e; 
+    position: relative;
 }
 .header_i1 {
 	width: 100%;
