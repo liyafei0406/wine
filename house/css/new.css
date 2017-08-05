@@ -94,11 +94,7 @@
 }
 
 .seek button img {
-<<<<<<< HEAD
 	width: 22.5px;
-=======
-	width: 22px;
->>>>>>> origin/master
 	margin-left: -30%;
 	margin-top: 0
 }
@@ -107,7 +103,7 @@
 	display: block;
 	margin-left: 45%;
 	margin-top: -34%;
-	line-height: 22px;
+	line-height: 23px;
 	/*color: #abadae;*/
 }
 /*没有搜到新闻*/
