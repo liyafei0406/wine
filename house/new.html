@@ -23,6 +23,14 @@
 			<img class="header_i2" src="img/IMG_0597.PNG"/>
 			<p class="header_p1">新闻资讯</p>
 			<p class="header_p2">公司新闻</p>
+			<!--新闻搜索框-->
+			<div class="seek">
+					<!--<form action="search.php" method="get" name="">-->
+					<input type="text" placeholder="请输入搜索关键字" class="word"/>
+					<button class="btnsss" ><img src="img/search.png"/><span>搜索</span></button>
+					<!--</form>-->
+				</div>
+				<!--下拉栏目-->
 			<div class="header_xl">
 					<ul>
 						<li onclick="window.location.href='index.html'"><div class="ico1 icon1"></div><span>首页</span></li>
@@ -50,6 +58,11 @@
 							</div>
 						</li>-->
 					</ul>
+					<!--搜索框搜索不到显示的图片-->
+					<div class="news_xiao">
+							<img style="margin-top: 10px; width: 30%; margin-left: 30%; display: block;" src="img/xiong.jpg"/>
+						    <p style="margin:10px 0 10px 35%;width: 100%; font-size: 0.8rem;">没有搜到结果</p>
+					</div>
 				</div>
 			</div>
 			 <!--更多项目-->
@@ -101,7 +114,37 @@ $(function() {
 //		}
 //	}
 //	lier();
-////创建新闻里的内容标签
+//新闻关键字查询并且改变关键字颜色
+var bol = true;
+$(document).ready(function () {
+    var word = decodeURI(getQueryStringByName('word'));
+    $(".word").val(word);
+	var biao =  $(".centre_d2 h5").html();
+//	console.log(biao);
+	var worder1 = biao.replace(new RegExp(word,"gm"),"<span style='color: red;' >"+word+"</span>");
+	 $(".centre_d2 h5").html(worder1);
+    var content = $(".centre_p3").text().substring(0,53);
+    var worder2 = content.replace(new RegExp(word,"gm"),"<span style='color: red;' >"+word+"</span>");
+    $(".centre_p3").html(worder2 + "....");
+//  console.log($(".centre_d2 h5").html());
+    if($(".centre_d2 h5 span").length > 0 ||  $(".centre_p3 span").length > 0) {
+    	return true;
+    }else {
+    	$(".news_centre li").hide();
+    	$(".news_xiao").show();
+    	bol = false;
+    	
+    };
+});
+//根据QueryString参数名称获取值
+function getQueryStringByName(name) {
+    var result = location.search.match(new RegExp("[\?\&]" + name + "=([^\&]+)", "i"));
+    if (result == null || result.length < 1) {
+        return "";
+    };
+    return result[1];
+};
+//创建新闻里的内容标签
 	function createLi() {
 	for(var i = 0; i < 10; i ++) {
 	var li = $("<li></li>");
@@ -142,10 +185,24 @@ $(function() {
 			//获取滚动条的偏移量
 			var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
 			if (maxHeight == scrollTop) {
+                if(bol == true) {
 //				lier();
-             createLi();
+                    createLi();
+                }else {
+			        bol = false;
+		        };
 			};
 		};
+//点击搜索框查询新闻
+	$(".btnsss").on("click", function() {
+ 	if($(".word").val() == "") {
+		alert("请输入搜索关键字！");
+	}else {
+		var words = $(".word").val();
+//		words = JSON.parse(words);
+		window.location.href = 'new.html?word='+words+'';
+	};
+	});
 });
 	</script>
 </html>
