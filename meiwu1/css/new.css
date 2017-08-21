@@ -30,6 +30,8 @@
 .centre_d2 h5 {
 	font-size: 0.8rem;
 	text-align: center;
+	height: 1.6rem;
+	overflow: hidden;
 }
 .centre_d2 p {
 	/*color: #abadae;*/
