@@ -20,15 +20,15 @@
 	font-size: 1.1rem;
 	text-align: center
 }
-.particulars_li ul {
+/* .particulars_li ul {
 	width: 94%;
 	margin-left: 3%;
 	text-align: center;
-}
+} */
 .particulars_li li {
 	float: left;
-/* 	margin-left: 3%; */
-	margin-right: 5px;
+	margin-left: 3%;
+/* 	margin-right: 5px; */
 	font-size: .8rem;
 	margin-top: 10px;
 	border-bottom: 1px solid #dfdfdf;
